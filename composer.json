@@ -1,0 +1,26 @@
+{
+    "name": "herebeducks/stack_geo",
+    "description": "Geolocation stack middleware",
+    "keywords": ["stack", "geolocation"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Andy Leon",
+            "email": "acleon@acleon.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "symfony/http-foundation": "~2.1",
+        "symfony/http-kernel": "~2.1",
+        "willdurand/geocoder": "*"
+    },
+    "require-dev": {
+        "silex/silex": "~1.0@dev",
+        "stack/builder": "~1.0@dev",
+        "stack/callable-http-kernel": "~1.0@dev"
+    },
+    "autoload": {
+        "psr-0": { "Ducks": "src" }
+    }
+}
