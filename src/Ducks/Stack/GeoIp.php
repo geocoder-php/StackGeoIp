@@ -21,8 +21,7 @@ class GeoIp implements HttpKernelInterface
             return $this->app->handle($request, $type, $catch);
         }
 
-        $geocoder = new \Geocoder\Geocoder();
-        $geocoder->registerProvider($this->container['provider']);
+        $geocoder = $this->container['geocoder'];
 
         $results = $geocoder->geocode($request->getClientIp());
 
