@@ -2,7 +2,6 @@
 
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
-use Symfony\Component\HttpFoundation\RedirectResponse;
 
 require __DIR__ . '/vendor/autoload.php';
 
@@ -25,4 +24,3 @@ $app = $stack->resolve($app);
 $request = Request::createFromGlobals();
 $response = $app->handle($request)->send();
 $app->terminate($request, $response);
-
