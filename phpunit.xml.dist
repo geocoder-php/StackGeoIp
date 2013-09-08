@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 <phpunit backupGlobals="false" colors="true" bootstrap="tests/bootstrap.php">
     <testsuites>
-        <testsuite name="integration">
+        <testsuite name="StackGeoIp Test Suite - Integration">
             <directory>./tests/integration/</directory>
         </testsuite>
     </testsuites>

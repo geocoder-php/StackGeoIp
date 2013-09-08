@@ -6,7 +6,6 @@ use Pimple;
 
 class ContainerConfig
 {
-
     public function process(Pimple $container)
     {
         $container['geocoder'] = $container->share(function($container) {
@@ -26,6 +25,4 @@ class ContainerConfig
 
         $container['header'] = 'X-Country';
     }
-
 }
-
