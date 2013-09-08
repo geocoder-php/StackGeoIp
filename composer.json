@@ -1,7 +1,7 @@
 {
     "name": "herebeducks/stack_geo",
-    "description": "Geolocation stack middleware",
-    "keywords": ["stack", "geolocation"],
+    "description": "Geolocation Stack middleware for Geocoder library",
+    "keywords": [ "stack", "geolocation", "geocoder" ],
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "php": ">=5.4.0",
         "symfony/http-foundation": "~2.1",
         "symfony/http-kernel": "~2.1",
-        "willdurand/geocoder": "*"
+        "willdurand/geocoder": "~2.0"
     },
     "require-dev": {
         "silex/silex": "~1.0@dev",
