@@ -1,6 +1,6 @@
 {
-    "name": "herebeducks/stack_geo",
-    "description": "Geolocation Stack middleware for Geocoder library",
+    "name": "geocoder-php/stack-geo-ip",
+    "description": "Geolocation Stack middleware for Geocoder library.",
     "keywords": [ "stack", "geolocation", "geocoder" ],
     "license": "MIT",
     "authors": [
