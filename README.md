@@ -86,9 +86,8 @@ The recommended way to install StackGeoIp is through
 ```
 
 **Protip:** you should browse the
-[`geocoder-php/stack-geo-ip`
-page](https://packagist.org/packages/geocoder-php/stack-geo-ip)
-to choose a stable version to use, avoid the `@stable` meta constraint.
+[`geocoder-php/stack-geo-ip`](https://packagist.org/packages/geocoder-php/stack-geo-ip)
+page to choose a stable version to use, avoid the `@stable` meta constraint.
 
 
 License
