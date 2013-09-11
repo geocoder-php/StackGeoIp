@@ -15,6 +15,26 @@ results to the request for subsequent middlewares by leveraging the
 Status](https://travis-ci.org/geocoder-php/StackGeoIp.png)](https://travis-ci.org/geocoder-php/StackGeoIp)
 
 
+Intallation
+-----------
+
+The recommended way to install StackGeoIp is through
+[Composer](http://getcomposer.org/):
+
+``` json
+{
+    "require": {
+        "geocoder-php/stack-geo-ip": "@stable"
+    }
+}
+```
+
+**Protip:** you should browse the
+[`geocoder-php/stack-geo-ip`](https://packagist.org/packages/geocoder-php/stack-geo-ip)
+page to choose a stable version to use, avoid the `@stable` meta
+constraint.
+
+
 Usage
 -----
 
