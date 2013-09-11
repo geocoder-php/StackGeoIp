@@ -71,6 +71,26 @@ See [the Geocoder documentation](http://geocoder-php.org/Geocoder/) for a list
 of available adapters and providers.
 
 
+Intallation
+-----------
+
+The recommended way to install StackGeoIp is through
+[Composer](http://getcomposer.org/):
+
+``` json
+{
+    "require": {
+        "geocoder-php/stack-geo-ip": "@stable"
+    }
+}
+```
+
+**Protip:** you should browse the
+[`geocoder-php/stack-geo-ip`
+page](https://packagist.org/packages/geocoder-php/stack-geo-ip)
+to choose a stable version to use, avoid the `@stable` meta constraint.
+
+
 License
 -------
 
