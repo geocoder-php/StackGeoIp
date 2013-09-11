@@ -41,7 +41,7 @@ $app->get('/', function(Request $request) {
 });
 
 $stack = (new \Stack\Builder())
-    ->push('Ducks\Stack\GeoIp')
+    ->push('Geocoder\Stack\GeoIp')
     ;
 
 $app = $stack->resolve($app);
