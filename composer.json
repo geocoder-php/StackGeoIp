@@ -21,6 +21,6 @@
         "stack/callable-http-kernel": "~1.0@dev"
     },
     "autoload": {
-        "psr-0": { "Ducks": "src" }
+        "psr-0": { "Geocoder": "src" }
     }
 }

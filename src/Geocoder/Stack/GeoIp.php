@@ -1,11 +1,22 @@
 <?php
 
-namespace Ducks\Stack;
+/**
+ * This file is part of the StackGeoIp package.
+ * For the full copyright and license information, please view the LICENSE
+ * file that was distributed with this source code.
+ *
+ * @license    MIT License
+ */
 
-use Ducks\Stack\GeoIp\ContainerConfig;
+namespace Geocoder\Stack;
+
+use Geocoder\Stack\GeoIp\ContainerConfig;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 
+/**
+ * @author Andy Leon <acleon@acleon.co.uk>
+ */
 class GeoIp implements HttpKernelInterface
 {
 
