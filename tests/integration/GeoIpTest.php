@@ -32,7 +32,7 @@ class GeoIpTest extends \PHPUnit_Framework_TestCase
         });
 
         $stack = new \Stack\Builder();
-        $stack->push('\Ducks\Stack\GeoIp', array('provider' => $provider));
+        $stack->push('Geocoder\Stack\GeoIp', array('provider' => $provider));
 
         $this->app = $stack->resolve($app);
     }
