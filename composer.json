@@ -16,9 +16,9 @@
         "willdurand/geocoder": "~2.0"
     },
     "require-dev": {
-        "silex/silex": "~1.0@dev",
-        "stack/builder": "~1.0@dev",
-        "stack/callable-http-kernel": "~1.0@dev"
+        "silex/silex": "~1.0",
+        "stack/builder": "~1.0",
+        "stack/callable-http-kernel": "~1.0"
     },
     "autoload": {
         "psr-0": { "Geocoder": "src" }
