@@ -19,6 +19,8 @@ use Symfony\Component\HttpKernel\HttpKernelInterface;
  */
 class GeoIp implements HttpKernelInterface
 {
+    private $app;
+    private $container;
 
     public function __construct(HttpKernelInterface $app, array $options = [])
     {

@@ -22,18 +22,18 @@ class ContainerConfig
 {
     public function process(Pimple $container)
     {
-        $container['geocoder'] = $container->share(function($container) {
+        $container['geocoder'] = $container->share(function ($container) {
             $geocoder = new Geocoder();
             $geocoder->registerProvider($container['provider']);
 
             return $geocoder;
         });
 
-        $container['provider'] = $container->share(function($container) {
+        $container['provider'] = $container->share(function ($container) {
             return new FreeGeoIpProvider($container['adapter']);
         });
 
-        $container['adapter'] = $container->share(function($container) {
+        $container['adapter'] = $container->share(function ($container) {
             return new CurlHttpAdapter();
         });
 

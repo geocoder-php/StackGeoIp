@@ -7,7 +7,7 @@ require __DIR__ . '/vendor/autoload.php';
 
 $app = new Silex\Application();
 
-$app->get('/', function(Request $request) {
+$app->get('/', function (Request $request) {
     $ip = $request->getClientIp();
 
     $country = $request->headers->get('X-Country', 'UNKNOWN');

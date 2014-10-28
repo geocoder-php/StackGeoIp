@@ -27,7 +27,7 @@ class GeoIpTest extends \PHPUnit_Framework_TestCase
             )))
             ;
 
-        $app = new \Stack\CallableHttpKernel(function(Request $request) {
+        $app = new \Stack\CallableHttpKernel(function (Request $request) {
             return new Response($request->headers->get('X-Country', 'NONE'));
         });
 
